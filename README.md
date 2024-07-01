@@ -63,9 +63,19 @@ The program uses exception handling to gracefully handle any errors that may occ
 It offers several advantages:
 
 1. **Versatility**: The project is designed with a modular architecture, allowing for easy expansion and addition of new features. The assistant can perform a wide range of tasks, from telling jokes and providing news updates to opening websites and playing music.
+   
 2. **Hands-free Interaction**: By leveraging speech recognition and text-to-speech capabilities, the assistant enables users to interact with it using voice commands, providing a more natural and convenient user experience.
+ 
 3. **Customizability**: The project's modular design makes it easy to customize and adapt to individual user preferences. Users can modify the code to add new functionalities, change the voice settings, or integrate the assistant with other services.
+   
 4. **Scalability**: The project's modular structure allows for seamless scaling and maintenance. New features can be added without disrupting the existing functionality, making it easier to keep the assistant up-to-date and relevant.
+   
 5. **Accessibility**: The voice-based interaction makes the assistant accessible to a wider range of users, including those with disabilities or who prefer hands-free interactions.
+    
 6. **Offline Functionality**: The project's design allows for some functionalities, such as playing music and providing time information, to work without an internet connection, making the assistant more reliable and accessible.
+    
 7. **Open-source and Extensible**: As an open-source project, the code can be freely accessed, modified, and extended by the community, encouraging collaboration and further development.
+
+   # Key coding elements
+
+![Screenshot 2024-07-01 161727](https://github.com/AnubhavSaxena3/voice-assistant/assets/113455210/4344d907-dfd7-413a-a06f-672c4c3ff125)
