@@ -1,4 +1,4 @@
-#Introduction:
+# Introduction:
 This Python-based voice assistant project is designed to provide a wide range of helpful features and functionalities to users. 
 The assistant, named Freddy, is capable of performing various tasks such as:
 - Greeting the user and engaging in conversational interactions
