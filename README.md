@@ -49,8 +49,8 @@ If the speech recognition is successful, the function returns the user's query a
 
 - The main loop of the program calls the 'takeCommand()' function to get the user's query.
 - It then checks the query for various keywords to determine the appropriate action to take.
-- For example, if the query contains the word "wikipedia", the program will search Wikipedia for the relevant information and read the summary to the user.
-- Similarly, if the query contains words like "open youtube", "open google", or "open stackoverflow", the program will open the corresponding website in the default web browser.
+  For example, if the query contains the word "wikipedia", the program will search Wikipedia for the relevant information and read the summary to the user.
+  Similarly, if the query contains words like "open youtube", "open google", or "open stackoverflow", the program will open the corresponding website in the default web browser.
 - The program also handles commands to play music, get the current time, and retrieve random facts.
 - If the query contains the word "exit", the program will terminate.
 
