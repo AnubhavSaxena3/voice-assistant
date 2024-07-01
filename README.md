@@ -79,3 +79,6 @@ It offers several advantages:
    # Key coding elements
 
 ![Screenshot 2024-07-01 161727](https://github.com/AnubhavSaxena3/voice-assistant/assets/113455210/4344d907-dfd7-413a-a06f-672c4c3ff125)
+
+### Main Functionality
+The project is centered around the VoiceAssistant class, which is the main entry point for the application. Also VoiceAssistant class handles user interaction, command execution, and orchestrates the different functionalities of the assistant.
