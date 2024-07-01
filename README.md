@@ -82,3 +82,11 @@ It offers several advantages:
 
 ### Main Functionality
 The project is centered around the VoiceAssistant class, which is the main entry point for the application. Also VoiceAssistant class handles user interaction, command execution, and orchestrates the different functionalities of the assistant.
+
+# Challenges
+These are some challenges as well as future improvements that can be done :
+1. Ensuring accurate speech recognition model, especially in noisy environments or with varying accents.
+2. As we add more functionalities to the assistant, we'll need to continuously expand its knowledge base to handle a wider range of queries.
+3. As users interact with the assistant more, they may start asking complex queries that require understanding context and relationships
+4. As the assistant handles user data like voice recordings and personal information, it's crucial to ensure privacy and security.
+5. To provide a delightful user experience, you need to continuously improve the assistant's performance, responsiveness, and natural language generation.
