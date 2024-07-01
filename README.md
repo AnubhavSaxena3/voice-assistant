@@ -15,15 +15,15 @@ The project is structured with separate modules for different functionalities, m
 The installation instructions and usage examples provided in the search results outline the steps required to set up and interact with this voice assistant.
 
 # Modular Description
-### Joke Module
+### Joke Module:
 - The joke() function retrieves a random joke from the "Official Joke API" and returns the setup and punchline.
 - This module is responsible for providing users with entertaining jokes on demand.
 
-### News Module
+### News Module:
 - The news() function fetches the top 3 business headlines from the US using the NewsAPI.
 - This module allows the assistant to provide users with the latest news updates.
 
-### Core Assistant Module
+### Core Assistant Module:
 - Greeting the user based on the time of day
 - Handling voice commands using speech recognition
 - Performing web searches and opening websites
@@ -38,14 +38,14 @@ These utility modules are integrated into the core functionality of the assistan
 
 # How does the project handle user input and command execution
 
-### Taking User Input
+### Taking User Input:
 
 - The 'takeCommand()' function uses the 'speech_recognition' library to listen for user voice input.
 - It uses the 'sr.Recognizer()' and 'sr.Microphone()' classes to capture audio from the user's microphone.
 - The function then uses the 'r.recognize_google()' method to convert the audio to text.
 If the speech recognition is successful, the function returns the user's query as a string. If there is an error, it prompts the user to try again.
 
-### Executing Commands
+### Executing Commands:
 
 - The main loop of the program calls the 'takeCommand()' function to get the user's query.
 - It then checks the query for various keywords to determine the appropriate action to take.
@@ -54,7 +54,7 @@ If the speech recognition is successful, the function returns the user's query a
 - The program also handles commands to play music, get the current time, and retrieve random facts.
 - If the query contains the word "exit", the program will terminate.
 
-### Handling Errors
+### Handling Errors:
 
 The program uses exception handling to gracefully handle any errors that may occur during speech recognition or command execution.If an exception is raised, the program will print an error message and prompt the user to try again.
 
@@ -80,7 +80,7 @@ It offers several advantages:
 
 ![Screenshot 2024-07-01 161727](https://github.com/AnubhavSaxena3/voice-assistant/assets/113455210/4344d907-dfd7-413a-a06f-672c4c3ff125)
 
-### Main Functionality
+### Main Functionality:
 The project is centered around the VoiceAssistant class, which is the main entry point for the application. Also VoiceAssistant class handles user interaction, command execution, and orchestrates the different functionalities of the assistant.
 
 # Challenges
